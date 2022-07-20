@@ -155,8 +155,60 @@ button {
     padding: 10px 10px 0 10px;
 }
 
+/* -------------------------blog.html styles---------------------- */
+.link-blog-2,
+.link-group-2 {
+    background-color: white;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.link-blog-2 a,
+.link-group-2 a {
+    text-decoration: none;
+    color: black;
+}
 
 
+.link-match-2 {
+    background-color: red;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.link-match-2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.all-matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+.matches {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.team-vs-team {
+    display: flex;
+    justify-content: center;
+
+}
 
 footer {
     background-color: black;
