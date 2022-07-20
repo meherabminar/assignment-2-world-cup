@@ -28,6 +28,14 @@ main {
 
 }
 
+.banner-image {
+    transition: transform 1s;
+}
+
+.banner:hover .banner-image {
+    transform: translate(75px);
+}
+
 .banner-info {
     color: white;
     width: 400px;
