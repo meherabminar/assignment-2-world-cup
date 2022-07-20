@@ -155,7 +155,7 @@ button {
     padding: 10px 10px 0 10px;
 }
 
-/* -------------------------blog.html styles---------------------- */
+/* -------------------------match.html styles---------------------- */
 .link-blog-2,
 .link-group-2 {
     background-color: white;
@@ -210,6 +210,7 @@ button {
 
 }
 
+/*---------------------------------------- match.html styles end------------------------------ */
 footer {
     background-color: black;
     text-align: center;
@@ -250,5 +251,45 @@ hr {
     text-decoration: none;
     color: white;
     font-size: 18px;
+
+}
+
+.footer-icons {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.fa-brands,
+.fa-brands,
+.fa-brands {
+    color: aliceblue;
+    font-size: 25px;
+}
+
+/*------------------------------------- mobile devices--------------------- */
+@media only screen and (max-width: 688px) {
+    .container {
+        width: 100%;
+
+    }
+
+    .banner,
+    .player-transfer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 100%;
+        width: 100%;
+
+
+    }
+
+
+    .player-transfer {
+        /* grid-template-columns: repeat(1, 1fr); */
+    }
+
 
 }
